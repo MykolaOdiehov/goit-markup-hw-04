@@ -1,0 +1,388 @@
+body {
+  font-family: Roboto, sans-serif;
+  color: #212121;
+  font-style: normal;
+}
+
+button {
+  border: none;
+}
+a {
+    text-decoration: none;
+  }
+header{
+display: inline;
+flex-direction: column;
+width: 1350px;
+height: 80px;
+
+  }
+header > div{
+    display: flex;
+    flex-direction: row;
+   
+}
+
+header > div > ul{
+    display: flex;
+    flex-direction: row;
+align-items: center;
+margin-top: 31.5px;
+margin-left: 90px;
+}
+.tell-for-buy{
+    display: flex;
+    flex-direction: row;
+margin-left: auto;
+}
+
+.list-in-header{
+    display: inline ;
+    flex-direction: column;
+}
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.row {
+  display: flex;
+  
+}
+.row > li{
+    margin-left: 30px;
+    
+}
+.tell-for-buyer {
+  font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.02em;
+  margin-right: 30px;
+  text-decoration: none;
+  color: #757575;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+}
+.tell-for-buyer:hover {
+  color: #2196f3;
+  text-decoration: none;
+}
+.link-for-navigation:focus {
+  color: #2196f3;
+  text-decoration: none;
+}
+.link-for-navigation {
+  height: 0 auto ;
+  text-decoration: none;
+  color: #212121;
+  font-family: Roboto;
+  margin-right: 50px;
+  font-weight: 500;
+}
+.link-for-navigation:hover {
+  color: #2196f3;
+  text-decoration: none;
+}
+
+.text-color {
+  color: #2196f3;
+  text-decoration: none;
+}
+
+.button-for-buy {
+  background: #2196f3;
+  cursor: pointer;
+  border-radius: 4px;
+  color: #ffff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  padding: 10px 32px;
+}
+.button-for-buy:hover {
+  background: #188ce8;
+}
+.button:hover {
+  background: #2196f3;
+}
+.button-for-buy:focus {
+  background: #2196f3;
+}
+.tell-for-buyer:focus {
+  color: #2196f3;
+  text-decoration: none;
+}
+.information-text {
+  margin-right: 30px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: #757575;
+}
+.information {
+  margin-right: 30px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+.text-in-button-in-herov {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  margin-left: 452px;
+}
+.number-one {
+  font-family: Raleway ;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  margin-top: auto;
+  
+  margin-left: 93px;
+}
+.work-in-protgect {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  letter-spacing: 0.03em;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.uor-comand {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  letter-spacing: 0.03em;
+  /* margin-left:350px ; */
+}
+.footer-text {
+  font-family: Raleway ;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 42px;
+  letter-spacing: 0.03em;
+  color: #fff;
+  margin-bottom: 20px;
+}
+.name-commando {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  margin-bottom: 10px;
+}
+.information-comand {
+  
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 19px;
+text-align: center;
+letter-spacing: 0.03em;
+color: #757575;
+  margin-bottom: 30px;
+}
+.button-fultor {
+  font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 26px;
+text-align: center;
+letter-spacing: 0.03em;
+border-radius: 4px;
+margin-right: 10px;
+display: inline-block;
+padding: 6px 22px;
+height: 40px;
+color: #212121;
+    }
+.button-fultor:focus {
+  background: #188ce8;
+  color: #ffff;
+}
+.button-fultor:hover {
+  background: #2196F3;
+  color: #ffff;
+  cursor: pointer;
+}
+.photo-buy {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 36px;
+  letter-spacing: 0.06em;
+  color: #212121;
+  margin-top: 20px;
+  margin-left: 24px;
+}
+.photo-buy-information {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  margin-left: 24px;
+  margin-top: 4px;
+  letter-spacing: 0.03em;
+  
+  color: #757575;
+}
+.work {
+  margin-left: 115px;
+  padding-bottom: 99px;
+ 
+}
+.our-protgect {
+  padding-top: 94px;
+  margin:0 auto ;
+  padding-bottom: 94px;
+}
+.our-protgect > ul > li {
+  margin-right: 30px;
+}
+.herov {
+  text-align: center;
+  padding: 200px 0;
+  background: url(../images/photo-herv.jpg);
+  background: #2F303A;
+}
+
+ .text-in-button-in-herov {
+  margin: 0 auto;
+  max-width: 650px;
+  color: #fff;
+  margin-bottom: 30px;
+}
+.buy-product {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer {
+  padding: 60px 0;
+  background: #2f303a;
+}
+.none{
+display: none;
+
+}
+.list-in-work{
+display: flex;
+flex-direction: row;
+margin-top: 94px;
+
+}
+.list-in-work > li:not(:first-child){
+    margin-left: 30px;
+}
+.work-in-protgect-uor-command{
+ font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 36px;
+line-height: 42px;
+letter-spacing: 0.03em;
+margin: 0 auto;
+margin-bottom: 50px;
+width: 300px;
+height: 42px
+}
+.buy-product_list{
+  display: inline-block;
+  margin-right: 30px;
+  margin-bottom: 30px;
+}
+.buy-product_list:focus{
+  border: 1px solid #EEEEEE;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+.buy-product_list:hover{
+  border: 1px solid #EEEEEE;
+ cursor: pointer;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+.sales-list{
+height: max-content;
+margin-bottom: 111px;
+width: 1306px;
+}
+.all-button-in-portfolio{
+    display: flex;
+   margin: 0 auto;
+   width:  max-content;
+   margin-top: 94px;
+   margin-bottom: 50px;
+}
+
+.link-for-navigation-in-footer{
+  text-decoration: none;
+  color: #ffffff;
+  margin-right: 50px;
+  font-family: Roboto;
+
+font-weight:400;
+font-size: 14px;
+line-height: 24px;
+letter-spacing: 0.03em;
+margin-bottom: 9px;
+
+}
+.link-for-navigation-in-footer:focus{
+  color: #2196f3;
+}
+.link-for-navigation-in-footer:hover{
+  color: #2196f3;
+
+}
+.box-header{
+  border: 1px solid #ECECEC;
+}
+.button-in-herov{
+  font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 30px;
+}
+.card-bakgraynd{
+  margin:0 auto ;
+  padding-top: 94px;
+  background: #F5F4FA;;
+  height: 537px;
+}
+.card{
+text-align: center;
+border: 1px solid black ;
+background: #FFFFFF;
+/* material shadow v1 */
+
+box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+border-radius: 0px 0px 4px 4px;
+
+}
