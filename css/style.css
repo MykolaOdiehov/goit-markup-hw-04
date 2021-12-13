@@ -40,6 +40,14 @@ margin-left: auto;
     display: inline ;
     flex-direction: column;
 }
+.list-in-header:hover{
+  fill: #2196f3 ;
+  
+}
+.list-in-header > a:hover{color:#2196f3 ;
+}
+
+
 .container {
   width: 1200px;
   margin: 0 auto;
@@ -69,10 +77,9 @@ letter-spacing: 0.02em;
   line-height: 16px;
   letter-spacing: 0.02em;
 }
-.tell-for-buyer:hover {
-  color: #2196f3;
-  text-decoration: none;
-}
+
+
+
 .link-for-navigation:focus {
   color: #2196f3;
   text-decoration: none;
@@ -254,7 +261,7 @@ color: #212121;
   color: #757575;
 }
 .work {
-  margin-left: 115px;
+  
   padding-bottom: 99px;
  
 }
@@ -287,6 +294,7 @@ color: #212121;
 .footer {
   padding: 60px 0;
   background: #2f303a;
+  
 }
 .none{
 display: none;
@@ -400,10 +408,9 @@ border-radius: 4px;
   padding-bottom: 94px;
 }
 .svg-photo{
-  width: 50px;
-  height: 100px;
-  fill: #afb1b8;
-  margin-left: 43px;
+  width: 106px;
+  height: 60px;
+  fill: #afb1b8; 
 }
 
 .svg-list:hover .svg-photo{
@@ -424,4 +431,92 @@ text-align: center;
 letter-spacing: 0.03em;
 padding-top: 94px;
 margin-bottom: 50px;
+}
+.svg-in-footer-in-container{
+  height: 44px;
+  width: 44px;
+  background: #44454E;
+  
+  border-radius: 360px;
+  cursor: pointer;
+}
+.svg-in-footer-in-container:not(:first-child){margin-left: 10px;}
+.svg-photo-in-footer{
+  height: 20px;
+  width: 20px;
+  margin: 12px 12px;
+  fill: #fff;
+  cursor: pointer;
+  
+}
+.svg-in-footer-in-container:hover {
+background: #2196F3;
+
+}
+
+.box-in-footer-two > h3{
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  
+  color: #FFFFFF;
+  margin-top: 15px;
+}
+.box{
+  display: flex;
+}
+.container-for-svg-in-footor{
+display: flex;
+padding-top: 20px;
+}
+.svg-humans-in-card{
+  display: flex; 
+  padding-bottom:30px ;
+}
+.svg-photo-svg-humans-in-card{
+  height: 20px;
+  width: 20px;
+ margin: 12px 12px;
+ 
+}
+.list-svg-humans-in-card{
+  margin-left:10px ;
+  fill:#AFB1B8 ;
+  border-radius: 360px;
+  cursor: pointer;
+}
+.list-svg-humans-in-card:hover{
+  fill: #E3F2FE;
+  background: #2196F3;
+}
+.margin{
+  margin-left:32px;
+}
+.list-in-header{
+  display: inline;
+}
+.svg-in-list-in-header{
+  width:10px ;
+  height: 18px;
+  
+}
+.svg-in-list-in-header-email{
+  width:16px ;
+  height: 12px;
+}
+.list-in-work-div{
+  background: #F5F4FA;
+  height:120px ;
+  width:270px ;
+  margin-bottom: 30px;
+  border-radius: 4px;
+}
+.list-in-work-div-svg{
+  height:65px ;
+  width: 70px;
+  margin: 25px 102px ;
 }
