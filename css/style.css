@@ -388,21 +388,40 @@ border-radius: 0px 0px 4px 4px;
 }
 .svg-list{
   display: inline;
-  width: 100px;
-  height: 100px;
-  border: 1px solid rgb(0, 0, 0);
+  width: 170px;
+  height: 92px;
+  border: 1px solid #AFB1B8;
+margin-left: auto;
+border-radius: 4px;
+
 }
 .svg{
   display: flex;
+  padding-bottom: 94px;
 }
 .svg-photo{
   width: 50px;
   height: 100px;
+  fill: #afb1b8;
+  margin-left: 43px;
 }
-.svg-list:hover{
-  color: blue;
-}
+
 .svg-list:hover .svg-photo{
-  border: 1px solid rgb(24, 209, 200);
-  fill: blue;
+fill: #2196F3;
+cursor: pointer;
+
+}
+.svg-list:hover:hover{
+  border: 1px solid #2196F3;
+}
+.text-on-svg{
+  font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 36px;
+line-height: 42px;
+text-align: center;
+letter-spacing: 0.03em;
+padding-top: 94px;
+margin-bottom: 50px;
 }
