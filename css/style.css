@@ -13,8 +13,8 @@ a {
 header{
 display: inline;
 flex-direction: column;
-width: 1350px;
-height: 80px;
+
+
 
   }
 header > div{
@@ -27,7 +27,7 @@ header > div > ul{
     display: flex;
     flex-direction: row;
 align-items: center;
-margin-top: 31.5px;
+
 margin-left: 90px;
 }
 .tell-for-buy{
@@ -85,7 +85,7 @@ letter-spacing: 0.02em;
   text-decoration: none;
 }
 .link-for-navigation {
-  height: 0 auto ;
+  
   text-decoration: none;
   color: #212121;
   font-family: Roboto;
@@ -160,9 +160,9 @@ letter-spacing: 0.02em;
   font-style: normal;
   font-weight: bold;
   font-size: 26px;
-  margin-top: auto;
+  padding-top: 25px;
   
-  margin-left: 93px;
+  
 }
 .work-in-protgect {
   font-family: Roboto;
@@ -368,9 +368,7 @@ margin-bottom: 9px;
   color: #2196f3;
 
 }
-.box-header{
-  border: 1px solid #ECECEC;
-}
+
 .button-in-herov{
   font-family: Roboto;
 font-style: normal;
@@ -386,7 +384,7 @@ line-height: 30px;
 }
 .card{
 text-align: center;
-border: 1px solid black ;
+border: 1px solid rgb(red, green, blue 00.06em) ;
 background: #FFFFFF;
 /* material shadow v1 */
 
@@ -520,4 +518,7 @@ padding-top: 20px;
   height:65px ;
   width: 70px;
   margin: 25px 102px ;
+}
+.webstudio{
+  padding: 32px;
 }
