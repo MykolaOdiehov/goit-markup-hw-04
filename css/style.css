@@ -80,8 +80,8 @@ letter-spacing: 0.02em;
   line-height: 16px;
   letter-spacing: 0.02em;
   margin-left: 10px;
-
-  align-self:auto;
+  height: 24px;
+  align-items: center;
 }
 
 
@@ -206,6 +206,7 @@ letter-spacing: 0.02em;
   font-size: 16px;
   line-height: 19px;
   margin-bottom: 10px;
+  padding-top: 30px;
 }
 .information-comand {
   
@@ -354,10 +355,22 @@ width: 1306px;
    margin-top: 94px;
    margin-bottom: 50px;
 }
-
-.link-for-navigation-in-footer{
+.link-for-navigation-in-footer-adres{
   text-decoration: none;
   color: #ffffff;
+  margin-right: 50px;
+  font-family: Roboto;
+
+font-weight:400;
+font-size: 14px;
+line-height: 24px;
+letter-spacing: 0.03em;
+margin-bottom: 9px;
+}
+.link-for-navigation-in-footer{
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.6);
+
   margin-right: 50px;
   font-family: Roboto;
 
@@ -531,6 +544,6 @@ align-items: center;
 .webstudio{
   padding: 32px;
 }
-.webstudio{
+.webstudio-footor{
   padding-right: 70px;
 }
