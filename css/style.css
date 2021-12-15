@@ -43,12 +43,12 @@ margin-left: auto;
 height: 16px;
 }
 .list-in-header:hover{
-  color: #2196f3;
   fill: #2196f3 ;
- background: #2196f3;
+ 
   
 }
-
+.list-in-header > a:hover{color:#2196f3 ;
+}
 
 
 .container {
@@ -80,7 +80,8 @@ letter-spacing: 0.02em;
   line-height: 16px;
   letter-spacing: 0.02em;
   margin-left: 10px;
-  
+
+  align-self:auto;
 }
 
 
@@ -503,11 +504,12 @@ padding-top: 20px;
 }
 .list-in-header{
   display: inline;
+  height: 16px;
 }
 .svg-in-list-in-header{
   width:10px ;
-  height: 18px;
-  
+  height: 16px;
+align-items: center;
 }
 .svg-in-list-in-header-email{
   width:16px ;
@@ -528,4 +530,7 @@ padding-top: 20px;
 }
 .webstudio{
   padding: 32px;
+}
+.webstudio{
+  padding-right: 70px;
 }
