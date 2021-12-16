@@ -10,17 +10,17 @@ button {
 a {
     text-decoration: none;
   }
-header{
-display: inline;
-flex-direction: column;
+.header{
 
-
-
+  
+  border: 1px solid #f1f1f1;
+  
   }
 header > div{
     display: flex;
     flex-direction: row;
-   
+    
+ 
 }
 
 header > div > ul{
@@ -267,11 +267,7 @@ color: #212121;
   
   color: #757575;
 }
-.work {
-  
-  padding-bottom: 99px;
- 
-}
+
 .our-protgect {
   padding-top: 94px;
   margin:0 auto ;
@@ -332,7 +328,7 @@ height: 42px
   display: inline-block;
   margin-right: 30px;
   margin-bottom: 30px;
-  
+  border: 1px solid   #EEEEEE ; 
 }
 .buy-product_list:focus{
   
@@ -346,7 +342,7 @@ height: 42px
 .sales-list{
 height: max-content;
 margin-bottom: 111px;
-width: 1306px;
+width: 1270px;
 }
 .all-button-in-portfolio{
     display: flex;
@@ -397,10 +393,10 @@ font-size: 16px;
 line-height: 30px;
 }
 .card-bakgraynd{
-  margin:0 auto ;
+padding-bottom: 94px;
   padding-top: 94px;
   background: #F5F4FA;;
-  height: 537px;
+  
 }
 .card{
 text-align: center;
