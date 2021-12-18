@@ -543,7 +543,27 @@ align-items: center;
 .webstudio-footor{
   padding-right: 70px;
 }
-.link-for-navigation::after{
+.list-box-img{
+position: relative;
+}
+.div-for-box{
+  position: absolute;
+  bottom: 0px;
+  color: rgb(255, 255, 255);
+  width: 100%;
+  height: 70px;
+  background: rgba(47, 48, 58, 0.8);
 
-  
+}
+.div-for-box > p{
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  margin-top: 27px ;
+
 }
